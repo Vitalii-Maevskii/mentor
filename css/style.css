@@ -1,0 +1,124 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:afte r{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+body {
+	font-family: Arial;
+	font-size: 20px;
+	color: #273d46;
+	margin: 157px 0 0 0;
+}
+.header {
+
+}
+.container {
+	max-width: 841px;
+	margin: 0 auto;
+}
+.header__top {
+	margin: 0 0 73px 0;
+}
+.header__top--items {
+	margin: 0 0 12px 0;
+}
+.header__top--items:last-child {
+	margin: 0;
+}
+.header__top--items:before {
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 25px;
+	background: transparent url("../img/icons/check-green.png") left top no-repeat;
+	margin: 0 10px 0 0;
+}
+.header__top--items:first-child {
+	text-decoration: line-through;
+}
+.header__top--items:nth-child(2) {
+	font-weight: 700;
+}
+.header__top--items:nth-child(3) {
+	font-style: italic;
+}
+.header__top--items:nth-child(4) {
+	text-transform: uppercase;
+}
+.header__bottom {
+	margin: 0 0 137px 0;
+}
+.header__bottom--items {
+	margin: 0 0 12px 0;
+}
+.header__bottom--items:last-child {
+	margin: 0;
+}
+.header__bottom--items:before {
+	content: '';
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	background: transparent url("../img/icons/check-green.png") left top no-repeat;
+	margin: 0 10px 0 0;
+}
+.header__bottom--items:hover {
+	color: #d55a5a;
+}
+.header__bottom--items:hover:before {
+	background: transparent url("../img/icons/check-red.png") left top no-repeat;
+}
+.buttons {
+
+}
+.buttons__items {
+	margin: 0 0 115px 24px;
+}
+.buttons__item {
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 27px 0 30px;
+	margin: 0 90px 0 0;
+	background-color: #80b7b3;
+	border-radius: 25px;
+	color: #FFF;
+	font-size: 14px;
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+	-webkit-box-shadow: 0px 0px 31px 9px rgba(193,210,209,1);
+	-moz-box-shadow: 0px 0px 31px 9px rgba(193,210,209,1);
+	box-shadow: 0px 0px 31px 9px rgba(193,210,209,1);
+}
+.buttons__item:last-child {
+	margin-right: 0;
+}
+.buttons__item--span {
+	display: inline-block;
+	line-height: 44px;
+	height: 44px;
+	/*vertical-align: top;*/
+}
+.buttons__item--span:after {
+	content: '';
+	vertical-align: top;
+	display: inline-block;
+	width: 20px;
+	height: 44px;
+	background: url("../img/icons/arrow.svg") right 15px no-repeat;
+	padding: 0 10px 0 0;
+}
